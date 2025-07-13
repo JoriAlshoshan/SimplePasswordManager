@@ -27,6 +27,3 @@ This project is for educational purposes only and does not provide industrial-st
 4. On first run, set your Master Key.
 5. Use the menu options to manage your passwords.
 
----
-
-Feel free to modify and improve this project for your learning purposes!
