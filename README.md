@@ -28,4 +28,7 @@ Each password is encrypted before saving, and decrypted when displayed to the us
 This project is designed to teach fundamental C# programming concepts such as:
 
 - Reading and writing files
-- Using
+- Using dictionaries to store key-value pairs
+- Simple encryption and decryption techniques
+- Handling user input and program flow
+- Building interactive console applications
