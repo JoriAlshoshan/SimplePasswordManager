@@ -1,29 +1,31 @@
 # Simple Password Manager
 
-This is a basic console application written in C# designed to help users securely store and manage their passwords on their own computer.
+This project is a simple C# console application that allows users to securely store and manage their passwords locally.
 
-## How It Works
+## Project Idea
 
-- When you run the program for the first time, it asks you to create a **Master Key**. This key protects all your stored passwords.
-- Your passwords for different websites or applications are saved encrypted in a local text file.
-- Every time you open the program afterward, you must enter the correct Master Key to unlock and access your saved passwords.
+The program first asks the user to create a **Master Key** which protects all stored passwords. Then, it reads encrypted passwords saved in a local file and allows the user to perform different operations such as listing, adding, retrieving, or deleting passwords.
 
-## Features
+Each password is encrypted before saving, and decrypted when displayed to the user.
 
-- List all saved passwords
-- Add new passwords or update existing ones
-- Retrieve a password for a specific website or app
-- Delete passwords you no longer need
+## Supported Features
 
-## Important Note
+- Set and validate a Master Key for access control
+- Add new passwords or update existing ones by website or app name
+- Retrieve saved passwords by website or app name
+- Delete saved passwords
+- List all stored passwords
 
-This project is for educational purposes only and does not provide industrial-strength security. It is a simple way to practice C# programming and understand basic encryption and data storage concepts.
+## Program Behavior
 
-## How to Run
+- On the first run, the user is prompted to create a Master Key.
+- On subsequent runs, the user must enter the correct Master Key to access the stored passwords.
+- Passwords are saved encrypted in a text file called `passwords.txt`.
+- The program continuously shows a menu for password management until the user exits.
 
-1. Clone or download this repository.
-2. Open the project in your favorite C# IDE (such as Visual Studio).
-3. Build and run the application.
-4. On first run, set your Master Key.
-5. Use the menu options to manage your passwords.
+## Project Goal
 
+This project is designed to teach fundamental C# programming concepts such as:
+
+- Reading and writing files
+- Using
